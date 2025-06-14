@@ -10,7 +10,7 @@ function ContentPanel({ activeSection, hoveredCardIdx, setHoveredCardIdx, setExp
     <div className="w-full md:ml-[35%] md:w-[65%] min-h-screen p-4 md:p-8 overflow-y-auto">
       <div
         id="experience"
-        className={`flex flex-col gap-8 text-sm md:text-base md:pt-8 transition-opacity duration-300 ${activeSection === 'experience' ? 'opacity-100' : 'opacity-0 hidden'}`}
+        className={`flex flex-col gap-8 text-sm md:pt-8 transition-opacity duration-300 ${activeSection === 'experience' ? 'opacity-100' : 'opacity-0 hidden'}`}
       >
         {[
           {
@@ -78,12 +78,12 @@ function ContentPanel({ activeSection, hoveredCardIdx, setHoveredCardIdx, setExp
             href="https://github.com/Nazifhanif1/Form-Builder"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-400 underline hover:text-blue-300 mb-2 inline-block text-sm md:text-base"
+            className="text-blue-400 underline hover:text-blue-300 mb-2 inline-block text-sm"
           >
             View on GitHub
           </a>
-          <p className="text-gray-300 mb-2 text-sm md:text-base">Form Builder is a drag-and-drop web application that allows users to visually create custom forms. Users can select from a variety of form elements (such as headings, text fields, email, address, dropdowns, checkboxes, and more) and arrange them on a canvas. The form layout can be reordered via drag-and-drop.</p>
-          <ul className="list-disc text-gray-300 space-y-2 ml-4 text-sm md:text-base">
+          <p className="text-gray-300 mb-2 text-sm">Form Builder is a drag-and-drop web application that allows users to visually create custom forms. Users can select from a variety of form elements (such as headings, text fields, email, address, dropdowns, checkboxes, and more) and arrange them on a canvas. The form layout can be reordered via drag-and-drop.</p>
+          <ul className="list-disc text-gray-300 space-y-2 ml-4 text-sm">
             <li>Bootstrapped with Create React App for a modern React/TypeScript setup.</li>
             <li>Tailwind CSS is used for styling, enabling utility-first, responsive design.</li>
             <li>Drag-and-drop functionality is powered by Atlaskit’s pragmatic-drag-and-drop library.</li>
