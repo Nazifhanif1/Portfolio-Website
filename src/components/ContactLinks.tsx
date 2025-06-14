@@ -4,10 +4,10 @@ function ContactLinks() {
   return (
     <div className="flex flex-col items-center gap-2 mt-6 md:mt-0">
       <div className="flex items-center gap-2">
-        <span className="text-gray-400 font-mono text-sm">nazifhanif28@gmail.com</span>
+        <span className="text-gray-400 font-mono text-base">nazifhanif28@gmail.com</span>
       </div>
       <div className="flex items-center gap-2">
-        <span className="text-gray-400 font-mono text-sm">(+44)7824982671</span>
+        <span className="text-gray-400 font-mono text-base">(+44)7824982671</span>
       </div>
       <div className="flex items-center gap-4 mt-2">
         <a

@@ -34,7 +34,7 @@ function App() {
       <div className="w-full min-h-screen bg-[#161616] flex flex-col md:flex-row">
         <div className="w-full md:w-[35%] md:h-[75%] p-4 md:p-8 flex flex-col items-center justify-between md:fixed md:inset-y-0 md:left-0 md:w-[35%] md:h-auto md:justify-center md:top-1/2 md:-translate-y-1/2 md:gap-12">
           <div className="flex flex-col justify-center items-center mt-4 md:mt-0">
-            <span className="text-center font-russo font-normal text-white text-2xl md:text-3xl uppercase">
+            <span className="text-center font-russo font-normal text-white text-xl uppercase">
               Nazif Mohamed Hanif
             </span>
             <span className="font-russo text-gray-400 text-base md:text-lg">(Frontend, Web, CRO) Developer</span>

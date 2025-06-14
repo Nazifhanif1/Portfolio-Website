@@ -11,7 +11,7 @@ function DesktopNav({ activeSection, onSectionChange }: { activeSection: string,
     <nav className="hidden md:flex flex-col gap-6 md:gap-8 items-center justify-center w-full mt-6 md:mt-0">
       {navLinks.map(link => {
         const isActive = activeSection === link.id;
-        const baseSpan = `relative md:inline-block md:font-russo md:font-normal md:text-white md:text-3xl md:uppercase`;
+        const baseSpan = `relative md:inline-block md:font-russo md:font-normal md:text-white text-xl md:uppercase`;
         const underline =
           `absolute left-0 -bottom-1 h-[2px] w-full bg-white origin-left scale-x-0 transition-transform duration-300` +
           (isActive ? ' scale-x-100' : '') +
@@ -25,7 +25,7 @@ function DesktopNav({ activeSection, onSectionChange }: { activeSection: string,
               bg-[#232323] rounded-lg shadow border border-[#333] 
               text-white font-russo text-xl uppercase
               hover:bg-[#313131] focus:bg-[#313131] outline-none
-              md:bg-transparent md:rounded-none md:shadow-none md:border-0 md:text-3xl md:font-normal md:uppercase md:hover:bg-transparent md:focus:bg-transparent
+              md:bg-transparent md:rounded-none md:shadow-none md:border-0 text-xl md:font-normal md:uppercase md:hover:bg-transparent md:focus:bg-transparent
             `}
             target="_blank"
             rel="noopener noreferrer"
@@ -50,7 +50,7 @@ function DesktopNav({ activeSection, onSectionChange }: { activeSection: string,
               text-white font-russo text-xl uppercase
               hover:bg-[#313131] focus:bg-[#313131] outline-none
               ${isActive ? 'font-bold' : ''}
-              md:bg-transparent md:rounded-none md:shadow-none md:border-0 md:text-3xl md:font-normal md:uppercase md:hover:bg-transparent md:focus:bg-transparent md:font-normal
+              md:bg-transparent md:rounded-none md:shadow-none md:border-0 text-xl md:font-normal md:uppercase md:hover:bg-transparent md:focus:bg-transparent md:font-normal
             `}
             onClick={e => onSectionChange(e, link.id)}
             tabIndex={0}
