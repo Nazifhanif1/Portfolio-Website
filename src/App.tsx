@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useState } from 'react';
 import ContentPanel from './components/ContentPanel';
 import DesktopNav from './components/DesktopNav';
 import MobileNav from './components/MobileNav';
