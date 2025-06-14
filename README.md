@@ -1,7 +1,5 @@
 Website built with React, Typescript, Tailwind.
 
-Animated cursor effect codepen: https://codepen.io/roesinn/pen/ZEbbMbN
-
 Design inspiration from: https://brittanychiang.com/
 
 # Getting Started with Create React App
