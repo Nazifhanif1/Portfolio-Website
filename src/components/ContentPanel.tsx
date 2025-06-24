@@ -131,10 +131,10 @@ function ContentPanel({ activeSection, hoveredCardIdx, setHoveredCardIdx, setExp
           </ul>
           <div className='flex gap-4 w-full mt-4'>
             <img
-              src={`${process.env.PUBLIC_URL}/knights-tour-ss1.png`}
+              src={`${process.env.PUBLIC_URL}/knights-tour.gif`}
               alt="Form Builder Screenshot"
               className="w-1/2 h-auto object-cover rounded-lg shadow-lg cursor-zoom-in"
-              onClick={() => setExpandedImg(`${process.env.PUBLIC_URL}/knights-tour-ss1.png`)}
+              onClick={() => setExpandedImg(`${process.env.PUBLIC_URL}/knights-tour.gif`)}
             />
           </div>
         </div>
