@@ -105,6 +105,40 @@ function ContentPanel({ activeSection, hoveredCardIdx, setHoveredCardIdx, setExp
             />
           </div>
         </div>
+
+        <div
+          className={`project-item bg-gray-400/10 p-6 rounded-lg shadow-lg transition-transform duration-200 ${hoveredCardIdx === 98 ? 'scale-[1.05]' : ''}`}
+          onMouseEnter={() => setHoveredCardIdx(98)}
+          onMouseLeave={() => setHoveredCardIdx(null)}
+        >
+          <h3 className="text-lg font-russo text-white mb-2">Knight's Tour Visualizer</h3>
+          <a
+            href="https://github.com/Nazifhanif1/knights-tour-visualizer"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 underline hover:text-blue-300 mb-2 inline-block text-sm"
+          >
+            View on GitHub
+          </a>
+          <p className="text-gray-300 mb-2 text-sm">
+            Knight's Tour Visualizer is a React application that solves and animates the Knight's Tour problem on a chessboard of configurable size. The knight must visit every square exactly once, and the app demonstrates the solution step-by-step using Warnsdorff’s heuristic.
+          </p>
+          <ul className="list-disc text-gray-300 space-y-2 ml-4 text-sm">
+            <li>Configurable board size (from 5x5 to 20x20).</li>
+            <li>Automatically finds a solution using Warnsdorff’s heuristic.</li>
+            <li>Step-by-step animation showing the knight's movement across the board.</li>
+            <li>Responsive design: the board and cells resize to fit your screen.</li>
+          </ul>
+          <div className='flex gap-4 w-full mt-4'>
+            <img
+              src={`${process.env.PUBLIC_URL}/knights-tour-ss1.png`}
+              alt="Form Builder Screenshot"
+              className="w-1/2 h-auto object-cover rounded-lg shadow-lg cursor-zoom-in"
+              onClick={() => setExpandedImg(`${process.env.PUBLIC_URL}/knights-tour-ss1.png`)}
+            />
+          </div>
+        </div>
+
       </div>
     </div>
   );
